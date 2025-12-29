@@ -1,0 +1,18 @@
+{
+  "name": "intentionally-vulnerable-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally vulnerable demo app for testing code-fixers / scanners. DO NOT DEPLOY.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "body-parser": "1.18.3",
+    "ejs": "2.6.2",
+    "sqlite3": "5.1.6",
+    "lodash": "4.17.11",
+    "minimist": "0.0.8"
+  }
+}
